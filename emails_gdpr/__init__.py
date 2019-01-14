@@ -1,6 +1,6 @@
 __author__ = """Damian P."""
 __email__ = 'an0o0nyme@gmail.com'
-__version__ = '1.0.0'
+__version__ = '1.0.3'
 
 import logging.config
 
