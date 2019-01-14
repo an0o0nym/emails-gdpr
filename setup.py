@@ -7,7 +7,7 @@ with open('HISTORY.rst') as history_file:
     history = history_file.read()
 
 with open('requirements.txt') as requirements_file:
-    requirements = map(str.strip, requirements_file.readlines())
+    required = requirements_file.read().splitlines()
 
 setuptools.setup(
     name="emails-gdpr",
@@ -16,7 +16,7 @@ setuptools.setup(
     author_email="an0o0nyme@gmail.com",
     description="",
     keywords="emails gdpr data protection",
-    install_requires=list(requirements),
+    install_requires=required,
     license="MIT license",
     long_description=long_description + '\n\n' + history,
     long_description_content_type="text/markdown",
