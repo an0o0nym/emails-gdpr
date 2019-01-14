@@ -11,7 +11,7 @@ with open('requirements.txt') as requirements_file:
 
 setuptools.setup(
     name="emails-gdpr",
-    version="1.0.4",
+    version="1.0.5",
     author="Damian P.",
     author_email="an0o0nyme@gmail.com",
     description="",
