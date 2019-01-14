@@ -15,7 +15,7 @@ setuptools.setup(
     author="Damian P.",
     author_email="an0o0nyme@gmail.com",
     description="",
-    keywords="emails gdpr data protection",
+    keywords="emails gdpr general regulation data protection privacy right to be forgotten",
     install_requires=required,
     license="MIT license",
     long_description=long_description + '\n\n' + history,

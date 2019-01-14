@@ -30,9 +30,8 @@ clean-pyc: ## remove Python file artifacts
 	find . -name '*~' -exec rm -f {} +
 	find . -name '__pycache__' -exec rm -fr {} +
 
-release: clean ## package and upload a release
-	python setup.py sdist upload
-	python setup.py bdist_wheel upload
+release: clean dist ## package and upload a release
+	 twine upload dist/*
 
 dist: clean ## builds source and wheel package
 	python setup.py sdist
