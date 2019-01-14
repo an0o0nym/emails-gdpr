@@ -16,7 +16,7 @@ setuptools.setup(
     author_email="an0o0nyme@gmail.com",
     description="",
     keywords="emails gdpr data protection",
-    install_requires=requirements,
+    install_requires=list(requirements),
     license="MIT license",
     long_description=long_description + '\n\n' + history,
     long_description_content_type="text/markdown",
